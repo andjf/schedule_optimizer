@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import List
 from iter import get_all_possibilities_iter
 from Course import Course
 from CourseLoad import CourseLoad
@@ -9,8 +9,10 @@ def clear():
     os.system("cls")
 
 
-CS3604 = ("CS3604", "Professionalism in Computing", [
+CS3604 = [
     {
+        "id": "CS-3604",
+        "title": "Professionalism in Computing",
         "CRN": 13282,
         "days": "TR",
         "start": "11:00AM",
@@ -19,6 +21,8 @@ CS3604 = ("CS3604", "Professionalism in Computing", [
         "instructor": "DR Dunlap"
     },
     {
+        "id": "CS-3604",
+        "title": "Professionalism in Computing",
         "CRN": 13283,
         "days": "TR",
         "start": "8:00AM",
@@ -27,6 +31,8 @@ CS3604 = ("CS3604", "Professionalism in Computing", [
         "instructor": "DR Dunlap"
     },
     {
+        "id": "CS-3604",
+        "title": "Professionalism in Computing",
         "CRN": 13284,
         "days": "MW",
         "start": "2:30PM",
@@ -34,10 +40,12 @@ CS3604 = ("CS3604", "Professionalism in Computing", [
         "location": "ONLINE",
         "instructor": "DR Dunlap"
     }
-])
+]
 
-CS3114 = ("CS3114", "Data Structures and Algorithms", [
+CS3114 = [
     {
+        "id": "CS-3114",
+        "title": "Data Structures and Algorithms",
         "CRN": 13274,
         "days": "TR",
         "start": "9:30AM",
@@ -46,6 +54,8 @@ CS3114 = ("CS3114", "Data Structures and Algorithms", [
         "instructor": "WD McQuain"
     },
     {
+        "id": "CS-3114",
+        "title": "Data Structures and Algorithms",
         "CRN": 13275,
         "days": "TR",
         "start": "12:30PM",
@@ -54,6 +64,8 @@ CS3114 = ("CS3114", "Data Structures and Algorithms", [
         "instructor": "WD McQuain"
     },
     {
+        "id": "CS-3114",
+        "title": "Data Structures and Algorithms",
         "CRN": 20328,
         "days": "MW",
         "start": "4:00PM",
@@ -61,10 +73,12 @@ CS3114 = ("CS3114", "Data Structures and Algorithms", [
         "location": "TORG 1060",
         "instructor": "PR Sullivan"
     }
-])
+]
 
-CS3214 = ("CS3214", "Computer Systems", [
+CS3214 = [
     {
+        "id": "CS-3214",
+        "title": "Computer Systems",
         "CRN": 13276,
         "days": "TR",
         "start": "3:30PM",
@@ -73,6 +87,8 @@ CS3214 = ("CS3214", "Computer Systems", [
         "instructor": "GV Back"
     },
     {
+        "id": "CS-3214",
+        "title": "Computer Systems",
         "CRN": 13277,
         "days": "TR",
         "start": "9:30AM",
@@ -81,6 +97,8 @@ CS3214 = ("CS3214", "Computer Systems", [
         "instructor": "DJ Williams"
     },
     {
+        "id": "CS-3214",
+        "title": "Computer Systems",
         "CRN": 20351,
         "days": "MW",
         "start": "5:30PM",
@@ -88,10 +106,12 @@ CS3214 = ("CS3214", "Computer Systems", [
         "location": "NCB 250",
         "instructor": "L Hu"
     }
-])
+]
 
-CS2506 = ("CS2506", "Intro to Computer Organization", [
+CS2506 = [
     {
+        "id": "CS-2506",
+        "title": "Intro to Computer Organization",
         "CRN": 13226,
         "days": "MW",
         "start": "5:30PM",
@@ -100,6 +120,8 @@ CS2506 = ("CS2506", "Intro to Computer Organization", [
         "instructor": "X Jian"
     },
     {
+        "id": "CS-2506",
+        "title": "Intro to Computer Organization",
         "CRN": 13227,
         "days": "TR",
         "start": "11:00AM",
@@ -107,10 +129,12 @@ CS2506 = ("CS2506", "Intro to Computer Organization", [
         "location": "MCB 100",
         "instructor": "DS Nikolopoulos"
     }
-])
+]
 
-CS3304 = ("CS3304", "Comparative Languages", [
+CS3304 = [
     {
+        "id": "CS-3304",
+        "title": "Comparative Languages",
         "CRN": 13279,
         "days": "TR",
         "start": "8:00AM",
@@ -119,6 +143,8 @@ CS3304 = ("CS3304", "Comparative Languages", [
         "instructor": "MA Gulzar"
     },
     {
+        "id": "CS-3304",
+        "title": "Comparative Languages",
         "CRN": 13280,
         "days": "TR",
         "start": "5:00PM",
@@ -126,18 +152,10 @@ CS3304 = ("CS3304", "Comparative Languages", [
         "location": "NCB 320",
         "instructor": "DP McPherson"
     }
-])
+]
 
 classes = [CS3604, CS3114, CS3214, CS2506, CS3304]
-courses = [[Course(info, name, id) for info in sections]
-           for id, name, sections in classes]
-
-
-def print_course_load(courses: List[Course]):
-    print("-"*40)
-    for course in courses:
-        print(course)
-    print("-"*40)
+courses = [[Course(info) for info in sections] for sections in classes]
 
 
 course_loads = []

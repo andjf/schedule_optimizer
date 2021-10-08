@@ -2,9 +2,10 @@ from typing import Dict
 
 
 class Course(object):
-    def __init__(self, course_info: Dict, name: str, id: str) -> None:
-        self.name = name
-        self.id = id
+    def __init__(self, course_info: Dict) -> None:
+        print(course_info)
+        self.title = course_info["title"]
+        self.id = course_info["id"]
         self.crn = course_info["CRN"]
         self.days = course_info["days"]
         self.meeting_time = f"{course_info['start']}-{course_info['end']}"
@@ -38,7 +39,7 @@ class Course(object):
 
     def __str__(self):
         to_return = "\n" + " " * 15 + self.id + "\n\n"
-        to_return += f"Class: {self.name}\n"
+        to_return += f"Class: {self.title}\n"
         to_return += f"Meeting Time: {self.days} {self.meeting_time}\n"
         to_return += f"Location: {self.location}\n"
         to_return += f"Instructor: {self.instructor} (CRN: {self.crn})"
