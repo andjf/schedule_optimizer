@@ -45,7 +45,8 @@ class Course(object):
         return to_return
 
     def short_out(self):
-        to_return = self.id
+        to_return = ">" * 2 + " "
+        to_return += self.id
         to_return += f"\t{self.days} {self.meeting_time}\t({self.crn})"
         return to_return
 

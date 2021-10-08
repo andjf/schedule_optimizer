@@ -32,11 +32,11 @@ class CourseLoad(object):
 
         return total
 
-    def print_courses(self, verbose=False):
-        print("-"*40)
+    def print_courses(self, verbose=False, num_dashes=47):
+        print("-" * num_dashes)
         for course in self.courses:
             print(str(course) if verbose else course.short_out())
-            print("-"*40)
+            print("-" * num_dashes)
 
     def __str__(self):
 
@@ -62,7 +62,15 @@ class CourseLoad(object):
             offset = (course.start_time - start_time) // minute_increments
             length = (course.end_time - course.start_time) // minute_increments
 
+            num_content_rows = length - 2
+            num_content_columns = day_size - 2
+
             for index in days_indices:
+                starting_index = (day_size - len(course.id)) // 2
+                for i, letter in enumerate(course.id):
+                    out[offset + 1][index * day_size + starting_index + i] = letter
+
+
                 out[offset][index * day_size] = "╔"
                 out[offset+length][index * day_size] = "╚"
                 for dx in range(1, day_size - 1):
@@ -74,10 +82,10 @@ class CourseLoad(object):
                     out[offset + dy][index * day_size] = "║"
                     out[offset + dy][(index + 1) * day_size - 1] = "║"
 
-        hour_space_padding = 8
+        hour_space_padding = 9
 
         spaced_days = [" "*((day_size-1)//2) + day + " " *
-                       ((day_size-1)//2) for day in days_order]
+                       ((day_size)//2) for day in days_order]
         to_return = "\n\n"
         to_return += (" " * hour_space_padding)
         to_return += "".join(spaced_days)
