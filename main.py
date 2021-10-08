@@ -9,8 +9,6 @@ import json
 def clear():
     os.system("cls")
 
-if __name__ == "__main__":
-    main()
 
 def main():
     # Open and store course info
@@ -67,3 +65,9 @@ def main():
         else:
             # Go to the next course load
             i += 1
+
+
+if __name__ == "__main__":
+    main()
+
+
