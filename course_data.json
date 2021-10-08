@@ -1,37 +1,2693 @@
 {
-    "CS3604": [
+    "MATH-4134": [
         {
-            "id": "CS-3604",
-            "title": "Professionalism in Computing",
-            "CRN": 13282,
+            "id": "MATH-4134",
+            "title": "Number Theory",
+            "CRN": 17159,
             "days": "TR",
-            "start": "11:00AM",
-            "end": "12:15PM",
-            "location": "PAM 2030",
-            "instructor": "DR Dunlap"
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4144": [
+        {
+            "id": "MATH-4144",
+            "title": "Linear Algebra II",
+            "CRN": 17160,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 233",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4175": [
+        {
+            "id": "MATH-4175",
+            "title": "Cryptography",
+            "CRN": 17161,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
         },
         {
-            "id": "CS-3604",
-            "title": "Professionalism in Computing",
-            "CRN": 13283,
-            "days": "TR",
-            "start": "8:00AM",
-            "end": "9:15AM",
-            "location": "MCB 113",
-            "instructor": "DR Dunlap"
+            "id": "MATH-4175",
+            "title": "Cryptography",
+            "CRN": 17162,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 232",
+            "instructor": "Staff"
         },
         {
-            "id": "CS-3604",
-            "title": "Professionalism in Computing",
-            "CRN": 13284,
+            "id": "MATH-4175",
+            "title": "Cryptography",
+            "CRN": 17163,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-4175",
+            "title": "Cryptography",
+            "CRN": 17164,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4176": [
+        {
+            "id": "MATH-4176",
+            "title": "Cryptography",
+            "CRN": 17165,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 329",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4226": [
+        {
+            "id": "MATH-4226",
+            "title": "Elementary Real Analysis",
+            "CRN": 17166,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "TORG 1010",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-4226",
+            "title": "Elementary Real Analysis",
+            "CRN": 21150,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "TORG 1040",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4234": [
+        {
+            "id": "MATH-4234",
+            "title": "Elementary Complex Analysis",
+            "CRN": 17167,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 210",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4324": [
+        {
+            "id": "MATH-4324",
+            "title": "Elementary Topology",
+            "CRN": 17168,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 204",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4334": [
+        {
+            "id": "MATH-4334",
+            "title": "College Geometry",
+            "CRN": 17169,
             "days": "MW",
             "start": "2:30PM",
             "end": "3:45PM",
-            "location": "ONLINE",
-            "instructor": "DR Dunlap"
+            "location": "MCB 223",
+            "instructor": "SM Hagen"
         }
     ],
-    "CS3114": [
+    "MATH-4404": [
+        {
+            "id": "MATH-4404",
+            "title": "Applied Numerical Methods",
+            "CRN": 17172,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "AA 114",
+            "instructor": "SS Choi"
+        }
+    ],
+    "MATH-4414": [
+        {
+            "id": "MATH-4414",
+            "title": "Issues in Scientific Computing",
+            "CRN": 17173,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "MCB 136",
+            "instructor": "A Onufriev"
+        }
+    ],
+    "MATH-4426": [
+        {
+            "id": "MATH-4426",
+            "title": "Fourier Series PDE",
+            "CRN": 17174,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 321",
+            "instructor": "RC Rogers"
+        }
+    ],
+    "MATH-4445": [
+        {
+            "id": "MATH-4445",
+            "title": "Intro to Numer Analysis",
+            "CRN": 17175,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4446": [
+        {
+            "id": "MATH-4446",
+            "title": "Intro to Numer Analysis",
+            "CRN": 17176,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4454": [
+        {
+            "id": "MATH-4454",
+            "title": "Applied Mathematical Modeling",
+            "CRN": 17177,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4564": [
+        {
+            "id": "MATH-4564",
+            "title": "Operational Methods",
+            "CRN": 17178,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SURGE 103A",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-4564",
+            "title": "Operational Methods",
+            "CRN": 17179,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "SURGE 103A",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-4564",
+            "title": "Operational Methods",
+            "CRN": 17180,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "WLH 340",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4574": [
+        {
+            "id": "MATH-4574",
+            "title": "Vector/Complex Analysis",
+            "CRN": 17181,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "AA 114",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-4574",
+            "title": "Vector/Complex Analysis",
+            "CRN": 17182,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-4626": [
+        {
+            "id": "MATH-4626",
+            "title": "Math for Secondary Teachers",
+            "CRN": 17183,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 223",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3034": [
+        {
+            "id": "MATH-3034",
+            "title": "Introduction to Proofs",
+            "CRN": 17130,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 216",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3034",
+            "title": "Introduction to Proofs",
+            "CRN": 17131,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SAUND 408",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3034",
+            "title": "Introduction to Proofs",
+            "CRN": 17132,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 216",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3034",
+            "title": "Introduction to Proofs",
+            "CRN": 17133,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MAJWM 434",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3124": [
+        {
+            "id": "MATH-3124",
+            "title": "Modern Algebra",
+            "CRN": 17134,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 223",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3124",
+            "title": "Modern Algebra",
+            "CRN": 17135,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 223",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3134": [
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17136,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 134",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17137,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 233",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17138,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 316",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17139,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 302",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17140,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17141,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 316",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17143,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 233",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17144,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 302",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17145,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 134",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17146,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 134",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3134",
+            "title": "Applied Combinatorics",
+            "CRN": 17147,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 316",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3144": [
+        {
+            "id": "MATH-3144",
+            "title": "Linear Algebra I",
+            "CRN": 17148,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 134",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3144",
+            "title": "Linear Algebra I",
+            "CRN": 17149,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 328",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3214": [
+        {
+            "id": "MATH-3214",
+            "title": "Calculus of Several Variables",
+            "CRN": 17150,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 316",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3214",
+            "title": "Calculus of Several Variables",
+            "CRN": 17151,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 233",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3214",
+            "title": "Calculus of Several Variables",
+            "CRN": 17152,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 134",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3214",
+            "title": "Calculus of Several Variables",
+            "CRN": 17153,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 233",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3224": [
+        {
+            "id": "MATH-3224",
+            "title": "Advanced Calculus",
+            "CRN": 17154,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 223",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3224",
+            "title": "Advanced Calculus",
+            "CRN": 17155,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 210",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-3224",
+            "title": "Advanced Calculus",
+            "CRN": 17156,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "DER 1084",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-3414": [
+        {
+            "id": "MATH-3414",
+            "title": "Numerical Methods",
+            "CRN": 17157,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SEITZ 207",
+            "instructor": "A Onufriev"
+        }
+    ],
+    "MATH-2024": [
+        {
+            "id": "MATH-2024",
+            "title": "Intermediate Calculus",
+            "CRN": 17027,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 240",
+            "instructor": "GM Cerezo Menegay"
+        }
+    ],
+    "MATH-2114": [
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17028,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17029,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17030,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17031,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17032,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17033,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17034,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17035,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17036,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "WLH 350",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17037,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17038,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17039,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17040,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17041,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 321",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17042,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 329",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17043,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17044,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17045,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17046,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17047,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17048,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17049,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17050,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17051,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17052,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17053,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17054,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17055,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17056,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17057,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17058,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17059,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 329",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17060,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17061,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17062,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17063,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-2114H": [
+        {
+            "id": "MATH-2114H",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17064,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2114H",
+            "title": "Introduction to Linear Algebra",
+            "CRN": 17065,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-2204": [
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17066,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17067,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17068,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17069,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17070,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 126",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17071,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17072,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17073,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17074,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17075,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17076,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17077,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17078,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17079,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 240",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17080,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17081,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17082,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17083,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2204",
+            "title": "Intro Multivariable Calculus",
+            "CRN": 17084,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "SURGE 104A",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-2214": [
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17085,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17086,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17087,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 126",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17088,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 209",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17089,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "WLH 340",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17090,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "WLH 350",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17091,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "WLH 340",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17092,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "WLH 345",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17093,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17094,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "WLH 340",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17095,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17096,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "GBJ 104",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17097,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17098,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17099,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17100,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17101,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 129",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17102,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "WLH 345",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17103,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17104,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17105,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "GBJ 104",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17106,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "WLH 345",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17107,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17108,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 307",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2214",
+            "title": "Intro Diff Equations",
+            "CRN": 17109,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "WLH 340",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-2214H": [
+        {
+            "id": "MATH-2214H",
+            "title": "Intro Diff Equations",
+            "CRN": 17110,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-2406H": [
+        {
+            "id": "MATH-2406H",
+            "title": "Math in Computational Context",
+            "CRN": 17111,
+            "days": "MW",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 223",
+            "instructor": "M Chung"
+        }
+    ],
+    "MATH-2534": [
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17113,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17114,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "SMYTH 146",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17115,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17116,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "AA 7",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17117,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "DURHM 261",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17118,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "WLH 330",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17119,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "FST 27",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17120,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "RAND 212",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17121,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "RAND 212",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17122,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 321",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17123,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "HUTCH 209",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-2534",
+            "title": "Intro Discrete Math",
+            "CRN": 17124,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-1014": [
+        {
+            "id": "MATH-1014",
+            "title": "Precalc with Transcendental",
+            "CRN": 16931,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 230",
+            "instructor": "SG Anderson"
+        }
+    ],
+    "MATH-1025": [
+        {
+            "id": "MATH-1025",
+            "title": "Elementary Calculus",
+            "CRN": 16935,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 136",
+            "instructor": "SG Anderson"
+        },
+        {
+            "id": "MATH-1025",
+            "title": "Elementary Calculus",
+            "CRN": 16939,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "ONLINE",
+            "instructor": "D Agud"
+        }
+    ],
+    "MATH-1026": [
+        {
+            "id": "MATH-1026",
+            "title": "Elementary Calculus",
+            "CRN": 16946,
+            "days": "T",
+            "start": "8:30AM",
+            "end": "9:45AM",
+            "location": "EMPOR 100",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1026",
+            "title": "Elementary Calculus",
+            "CRN": 16947,
+            "days": "T",
+            "start": "10:30AM",
+            "end": "11:45AM",
+            "location": "EMPOR 100",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1026",
+            "title": "Elementary Calculus",
+            "CRN": 16948,
+            "days": "T",
+            "start": "7:30PM",
+            "end": "8:45PM",
+            "location": "EMPOR 100",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1026",
+            "title": "Elementary Calculus",
+            "CRN": 16949,
+            "days": "T",
+            "start": "6:30PM",
+            "end": "7:45PM",
+            "location": "EMPOR 100",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-1044": [
+        {
+            "id": "MATH-1044",
+            "title": "Discovering Mathematics II",
+            "CRN": 16958,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:30AM",
+            "location": "MCB 318",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-1225": [
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16964,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16965,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16966,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16967,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 321",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16968,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16969,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16970,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 209",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16971,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "WLH 345",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16972,
+            "days": "MWF",
+            "start": "2:30PM",
+            "end": "3:20PM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16973,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "WLH 345",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16974,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "WLH 335",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16975,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 210",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16976,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 126",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16977,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16979,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16980,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16984,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 238",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16994,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 218",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16997,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "PAM 3028",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1225",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17002,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 232",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-1226": [
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16978,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16981,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "SURGE 104D",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16982,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16983,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16985,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16986,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 230",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16987,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 332",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16988,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 332",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16989,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 308",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16990,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16991,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 209",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16992,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 224",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16993,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 226",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16995,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "MCB 232",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16996,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16998,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 16999,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 332",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17000,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 136",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17001,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 232",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17003,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17004,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17005,
+            "days": "MWF",
+            "start": "4:00PM",
+            "end": "4:50PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17006,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "PAM 3004",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17007,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "MCB 204",
+            "instructor": "Staff"
+        },
+        {
+            "id": "MATH-1226",
+            "title": "Calculus of a Single Variable",
+            "CRN": 17008,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "MCB 304",
+            "instructor": "Staff"
+        }
+    ],
+    "MATH-1524": [
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17009,
+            "days": "W",
+            "start": "8:30AM",
+            "end": "9:45AM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17010,
+            "days": "W",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17011,
+            "days": "W",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17012,
+            "days": "W",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17013,
+            "days": "W",
+            "start": "10:30AM",
+            "end": "11:45AM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17014,
+            "days": "W",
+            "start": "11:30AM",
+            "end": "12:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17015,
+            "days": "W",
+            "start": "1:30PM",
+            "end": "2:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17016,
+            "days": "W",
+            "start": "4:30PM",
+            "end": "5:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17017,
+            "days": "W",
+            "start": "4:30PM",
+            "end": "5:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17018,
+            "days": "W",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        },
+        {
+            "id": "MATH-1524",
+            "title": "Business Calculus",
+            "CRN": 17019,
+            "days": "W",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "EMPOR 100",
+            "instructor": "JH England"
+        }
+    ],
+    "MATH-1624": [
+        {
+            "id": "MATH-1624",
+            "title": "Geometry for Teachers",
+            "CRN": 17025,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 223",
+            "instructor": "S Silber"
+        },
+        {
+            "id": "MATH-1624",
+            "title": "Geometry for Teachers",
+            "CRN": 17026,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 223",
+            "instructor": "S Silber"
+        }
+    ],
+    "MATH-5114": [
+        {
+            "id": "MATH-5114",
+            "title": "Specialized Topics in Algebra",
+            "CRN": 17191,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "SAUND 408",
+            "instructor": "GL Matthews"
+        }
+    ],
+    "MATH-5126": [
+        {
+            "id": "MATH-5126",
+            "title": "Abstract Algebra",
+            "CRN": 17192,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "MCB 658",
+            "instructor": "DD Orr"
+        }
+    ],
+    "MATH-5144": [
+        {
+            "id": "MATH-5144",
+            "title": "Inverse Theory &amp; Applications",
+            "CRN": 20901,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "DER 4052",
+            "instructor": "JA Hole"
+        }
+    ],
+    "MATH-5214": [
+        {
+            "id": "MATH-5214",
+            "title": "TS: Functional Analysis",
+            "CRN": 17193,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 658",
+            "instructor": "Y Yang"
+        }
+    ],
+    "MATH-5235": [
+        {
+            "id": "MATH-5235",
+            "title": "Complex Analysis",
+            "CRN": 17195,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 204",
+            "instructor": "PE Haskell"
+        }
+    ],
+    "MATH-5414": [
+        {
+            "id": "MATH-5414",
+            "title": "TS: ROM For Fluids",
+            "CRN": 17197,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "MCB 210",
+            "instructor": "T Iliescu"
+        },
+        {
+            "id": "MATH-5414",
+            "title": "TS: Stochastic Dynamics",
+            "CRN": 21182,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 204",
+            "instructor": "H Liu"
+        }
+    ],
+    "MATH-5425": [
+        {
+            "id": "MATH-5425",
+            "title": "Ap Par Dif Equa",
+            "CRN": 17198,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 212",
+            "instructor": "SM Sun"
+        }
+    ],
+    "MATH-5464": [
+        {
+            "id": "MATH-5464",
+            "title": "Combinatorics",
+            "CRN": 17199,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "MCB 207",
+            "instructor": "MM Shimozono"
+        }
+    ],
+    "MATH-5484": [
+        {
+            "id": "MATH-5484",
+            "title": "Finite Element Meth",
+            "CRN": 17200,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 210",
+            "instructor": "S Adjerid"
+        }
+    ],
+    "MATH-5516": [
+        {
+            "id": "MATH-5516",
+            "title": "Model and Sim of Bio Systems",
+            "CRN": 17202,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "MCB 210",
+            "instructor": "O Saucedo"
+        }
+    ],
+    "MATH-5524": [
+        {
+            "id": "MATH-5524",
+            "title": "Matrix Theory",
+            "CRN": 17203,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "MCB 328",
+            "instructor": "J Chung"
+        }
+    ],
+    "MATH-5554": [
+        {
+            "id": "MATH-5554",
+            "title": "Approximation Theory",
+            "CRN": 17204,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "SAUND 409",
+            "instructor": "S Gugercin"
+        }
+    ],
+    "MATH-5634": [
+        {
+            "id": "MATH-5634",
+            "title": "Research in Undergrad Math Ed",
+            "CRN": 21184,
+            "days": "M",
+            "start": "4:00PM",
+            "end": "6:50PM",
+            "location": "MCB 223",
+            "instructor": "E Johnson"
+        }
+    ],
+    "MATH-6256": [
+        {
+            "id": "MATH-6256",
+            "title": "Functional Analysis",
+            "CRN": 21206,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "ENGEL 219",
+            "instructor": "EA Palsson"
+        }
+    ],
+    "MATH-6324": [
+        {
+            "id": "MATH-6324",
+            "title": "TS: Algebraic Geometry",
+            "CRN": 17208,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "MCB 658",
+            "instructor": "CL Mihalcea"
+        }
+    ],
+    "CS-4104": [
+        {
+            "id": "CS-4104",
+            "title": "Data and Algorithm Analysis",
+            "CRN": 13296,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "NCB 250",
+            "instructor": "LS Heath"
+        },
+        {
+            "id": "CS-4104",
+            "title": "Data and Algorithm Analysis",
+            "CRN": 13297,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "NCB 250",
+            "instructor": "B Ji"
+        },
+        {
+            "id": "CS-4104",
+            "title": "Data and Algorithm Analysis",
+            "CRN": 20795,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "NCB 250",
+            "instructor": "R Sowle"
+        }
+    ],
+    "CS-4114": [
+        {
+            "id": "CS-4114",
+            "title": "Formal Languages",
+            "CRN": 13298,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "NCB 250",
+            "instructor": "L Zhang"
+        }
+    ],
+    "CS-4164": [
+        {
+            "id": "CS-4164",
+            "title": "Future of Security",
+            "CRN": 13299,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "TBA",
+            "instructor": "AO Vance"
+        }
+    ],
+    "CS-4264": [
+        {
+            "id": "CS-4264",
+            "title": "Principles Computer Security",
+            "CRN": 13300,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "NCB 250",
+            "instructor": "TT Chung"
+        }
+    ],
+    "CS-4274": [
+        {
+            "id": "CS-4274",
+            "title": "Secure Computing Capstone",
+            "CRN": 20354,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "NCB 110A",
+            "instructor": "T Hoang"
+        }
+    ],
+    "CS-4284": [
+        {
+            "id": "CS-4284",
+            "title": "Systems &amp; Networking Capstone",
+            "CRN": 13301,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "NCB 110A",
+            "instructor": "GV Back"
+        }
+    ],
+    "CS-4414": [
+        {
+            "id": "CS-4414",
+            "title": "Issues in Scientific Computing",
+            "CRN": 13302,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "MCB 136",
+            "instructor": "A Onufriev"
+        }
+    ],
+    "CS-4504": [
+        {
+            "id": "CS-4504",
+            "title": "Computer Organization",
+            "CRN": 13303,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "RAND 331",
+            "instructor": "W Feng"
+        }
+    ],
+    "CS-4604": [
+        {
+            "id": "CS-4604",
+            "title": "Int Data Base Mgt Sys",
+            "CRN": 13304,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 129",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-4624": [
+        {
+            "id": "CS-4624",
+            "title": "Multimedia/Hypertext",
+            "CRN": 13305,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "TORG 1060",
+            "instructor": "EA Fox"
+        }
+    ],
+    "CS-4644": [
+        {
+            "id": "CS-4644",
+            "title": "Creative Computing Studio",
+            "CRN": 13306,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "NCB 110B",
+            "instructor": " S Lee"
+        }
+    ],
+    "CS-4654": [
+        {
+            "id": "CS-4654",
+            "title": "Intermed Data Analytics &amp; ML",
+            "CRN": 13307,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "SAUND 409",
+            "instructor": "RB Gramacy"
+        },
+        {
+            "id": "CS-4654",
+            "title": "Intermed Data Analytics &amp; ML",
+            "CRN": 21388,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "NCB 110A",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-4664": [
+        {
+            "id": "CS-4664",
+            "title": "Data-Centric Computng Capstone",
+            "CRN": 20355,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "NCB 110A",
+            "instructor": "M Elhamod"
+        }
+    ],
+    "CS-4704": [
+        {
+            "id": "CS-4704",
+            "title": "Software Engineering Capstone",
+            "CRN": 13308,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "NCB 110B",
+            "instructor": "RD Charles"
+        },
+        {
+            "id": "CS-4704",
+            "title": "Software Engineering Capstone",
+            "CRN": 20356,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "NCB 110B",
+            "instructor": "MS Seyam"
+        }
+    ],
+    "CS-4774": [
+        {
+            "id": "CS-4774",
+            "title": "HCI Design Experience",
+            "CRN": 13310,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 113",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-4784": [
+        {
+            "id": "CS-4784",
+            "title": "Human-Computer Interact Capstn",
+            "CRN": 13311,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "MCB 113",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-4824": [
+        {
+            "id": "CS-4824",
+            "title": "Machine Learning",
+            "CRN": 13312,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "NCB 270",
+            "instructor": "AE Hilal"
+        },
+        {
+            "id": "CS-4824",
+            "title": "Machine Learning",
+            "CRN": 20573,
+            "days": "MWF",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "NCB 270",
+            "instructor": "D Bhattacharya"
+        }
+    ],
+    "CS-4884": [
+        {
+            "id": "CS-4884",
+            "title": "Comp Bio &amp; Bioinfo Capstone",
+            "CRN": 20365,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "NCB 110A",
+            "instructor": "TM Murali"
+        }
+    ],
+    "CS-4944": [
+        {
+            "id": "CS-4944",
+            "title": "Seminar",
+            "CRN": 13313,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "5:50PM",
+            "location": "WHIT 300",
+            "instructor": "SH Edwards"
+        }
+    ],
+    "CS-3114": [
         {
             "id": "CS-3114",
             "title": "Data Structures and Algorithms",
@@ -63,7 +2719,7 @@
             "instructor": "PR Sullivan"
         }
     ],
-    "CS3214": [
+    "CS-3214": [
         {
             "id": "CS-3214",
             "title": "Computer Systems",
@@ -95,7 +2751,579 @@
             "instructor": "L Hu"
         }
     ],
-    "CS2506": [
+    "CS-3274": [
+        {
+            "id": "CS-3274",
+            "title": "Software Reverse Engineering",
+            "CRN": 13278,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "TORG 1040",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-3304": [
+        {
+            "id": "CS-3304",
+            "title": "Comparative Languages",
+            "CRN": 13279,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "NCB 160",
+            "instructor": "MA Gulzar"
+        },
+        {
+            "id": "CS-3304",
+            "title": "Comparative Languages",
+            "CRN": 13280,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "NCB 320",
+            "instructor": "DP McPherson"
+        }
+    ],
+    "CS-3414": [
+        {
+            "id": "CS-3414",
+            "title": "Numerical Methods",
+            "CRN": 13281,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SEITZ 207",
+            "instructor": "A Onufriev"
+        }
+    ],
+    "CS-3604": [
+        {
+            "id": "CS-3604",
+            "title": "Professionalism in Computing",
+            "CRN": 13282,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "PAM 2030",
+            "instructor": "DR Dunlap"
+        },
+        {
+            "id": "CS-3604",
+            "title": "Professionalism in Computing",
+            "CRN": 13283,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "MCB 113",
+            "instructor": "DR Dunlap"
+        },
+        {
+            "id": "CS-3604",
+            "title": "Professionalism in Computing",
+            "CRN": 13284,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "ONLINE",
+            "instructor": "DR Dunlap"
+        }
+    ],
+    "CS-3634": [
+        {
+            "id": "CS-3634",
+            "title": "Comp Sci Foundations for CMDA",
+            "CRN": 13285,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "RAND 210",
+            "instructor": "Staff"
+        },
+        {
+            "id": "CS-3634",
+            "title": "Comp Sci Foundations for CMDA",
+            "CRN": 13286,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "RAND 210",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-3654": [
+        {
+            "id": "CS-3654",
+            "title": "Intro Data Analytics &amp; Visual",
+            "CRN": 13287,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SMYTH 146",
+            "instructor": "CL North"
+        },
+        {
+            "id": "CS-3654",
+            "title": "Intro Data Analytics &amp; Visual",
+            "CRN": 13289,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "SMYTH 146",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-3704": [
+        {
+            "id": "CS-3704",
+            "title": "Intermed Software Des",
+            "CRN": 13290,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "TORG 1060",
+            "instructor": "N Meng"
+        }
+    ],
+    "CS-3714": [
+        {
+            "id": "CS-3714",
+            "title": "Mobile Software Development",
+            "CRN": 13291,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TORG 1010",
+            "instructor": "O Balci"
+        },
+        {
+            "id": "CS-3714",
+            "title": "Mobile Software Development",
+            "CRN": 13292,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "TORG 1010",
+            "instructor": "O Balci"
+        },
+        {
+            "id": "CS-3714",
+            "title": "Mobile Software Development",
+            "CRN": 21599,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TORG 1010",
+            "instructor": "O Balci"
+        },
+        {
+            "id": "CS-3714",
+            "title": "Mobile Software Development",
+            "CRN": 21600,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "TORG 1010",
+            "instructor": "O Balci"
+        }
+    ],
+    "CS-3724": [
+        {
+            "id": "CS-3724",
+            "title": "Human-Computr Intrctn",
+            "CRN": 13293,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "NCB 220",
+            "instructor": "LS Gusukuma"
+        },
+        {
+            "id": "CS-3724",
+            "title": "Human-Computr Intrctn",
+            "CRN": 20735,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "NCB 120",
+            "instructor": "AM Kulak"
+        },
+        {
+            "id": "CS-3724",
+            "title": "Human-Computr Intrctn",
+            "CRN": 21601,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "NCB 220",
+            "instructor": "LS Gusukuma"
+        },
+        {
+            "id": "CS-3724",
+            "title": "Human-Computr Intrctn",
+            "CRN": 21602,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "NCB 120",
+            "instructor": "AM Kulak"
+        }
+    ],
+    "CS-3744": [
+        {
+            "id": "CS-3744",
+            "title": "Intro GUI Programming/Graphics",
+            "CRN": 13294,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "NCB 120",
+            "instructor": "LS Gusukuma"
+        }
+    ],
+    "CS-3754": [
+        {
+            "id": "CS-3754",
+            "title": "Cloud Software Development",
+            "CRN": 13295,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 113",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-3754",
+            "title": "Cloud Software Development",
+            "CRN": 21603,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "MCB 113",
+            "instructor": "A Esakia"
+        }
+    ],
+    "CS-2104": [
+        {
+            "id": "CS-2104",
+            "title": "Intro to Problem Solving in CS",
+            "CRN": 13197,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "NCB 250",
+            "instructor": "MO Ellis"
+        },
+        {
+            "id": "CS-2104",
+            "title": "Intro to Problem Solving in CS",
+            "CRN": 13198,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "NCB 250",
+            "instructor": "MO Ellis"
+        },
+        {
+            "id": "CS-2104",
+            "title": "Intro to Problem Solving in CS",
+            "CRN": 13199,
+            "days": "MWF",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "NCB 250",
+            "instructor": "Staff"
+        },
+        {
+            "id": "CS-2104",
+            "title": "Intro to Problem Solving in CS",
+            "CRN": 13200,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "NCB 250",
+            "instructor": "O Emebo"
+        }
+    ],
+    "CS-2114": [
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13201,
+            "days": "F",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "TORG 1020",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13202,
+            "days": "W",
+            "start": "5:30PM",
+            "end": "8:00PM",
+            "location": "NCB 110A",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13203,
+            "days": "F",
+            "start": "1:25PM",
+            "end": "3:55PM",
+            "location": "WMS 334",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13204,
+            "days": "M",
+            "start": "5:30PM",
+            "end": "8:00PM",
+            "location": "NCB 110B",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13205,
+            "days": "MW",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "GLCDB 64",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13206,
+            "days": "W",
+            "start": "5:30PM",
+            "end": "8:00PM",
+            "location": "NCB 110B",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13207,
+            "days": "M",
+            "start": "5:30PM",
+            "end": "8:00PM",
+            "location": "NCB 110A",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13208,
+            "days": "T",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "NCB 110A",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13209,
+            "days": "T",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "GOODW 145",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13210,
+            "days": "R",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "GOODW 145",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13211,
+            "days": "W",
+            "start": "5:30PM",
+            "end": "8:00PM",
+            "location": "TORG 1040",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13212,
+            "days": "F",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "TORG 1040",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13213,
+            "days": "F",
+            "start": "1:25PM",
+            "end": "3:55PM",
+            "location": "WAL 340",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13214,
+            "days": "F",
+            "start": "1:25PM",
+            "end": "3:55PM",
+            "location": "GBJ 104",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13215,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "LITRV 1670",
+            "instructor": "O Emebo"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13216,
+            "days": "T",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "NCB 110B",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 13217,
+            "days": "R",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "NCB 110B",
+            "instructor": "A Esakia"
+        },
+        {
+            "id": "CS-2114",
+            "title": "Softw Des &amp; Data Structures",
+            "CRN": 20285,
+            "days": "R",
+            "start": "6:30PM",
+            "end": "9:00PM",
+            "location": "NCB 110A",
+            "instructor": "A Esakia"
+        }
+    ],
+    "CS-2164": [
+        {
+            "id": "CS-2164",
+            "title": "Foundations Security Environ",
+            "CRN": 13218,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "NCB 170",
+            "instructor": "AF Brantly"
+        },
+        {
+            "id": "CS-2164",
+            "title": "Foundations Security Environ",
+            "CRN": 13219,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "NCB 170",
+            "instructor": "CH Suong"
+        }
+    ],
+    "CS-2304": [
+        {
+            "id": "CS-2304",
+            "title": "TS:  Prog Sys C++",
+            "CRN": 13220,
+            "days": "W",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "GOODW 125",
+            "instructor": "S Cao"
+        },
+        {
+            "id": "CS-2304",
+            "title": "TS: Docker Containerization",
+            "CRN": 13221,
+            "days": "M",
+            "start": "10:10AM",
+            "end": "11:00AM",
+            "location": "LITRV 1760",
+            "instructor": "MS Irwin"
+        },
+        {
+            "id": "CS-2304",
+            "title": "TS: Python Programming",
+            "CRN": 13222,
+            "days": "W",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "NCB 110A",
+            "instructor": "M Lohani"
+        },
+        {
+            "id": "CS-2304",
+            "title": "TS: Prog Sys Data Manage &amp; SQL",
+            "CRN": 13223,
+            "days": "M",
+            "start": "8:00AM",
+            "end": "8:50AM",
+            "location": "NCB 110A",
+            "instructor": "RD Charles"
+        }
+    ],
+    "CS-2505": [
+        {
+            "id": "CS-2505",
+            "title": "Intro Computer Organization",
+            "CRN": 13224,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "WHIT 300",
+            "instructor": "DP McPherson"
+        },
+        {
+            "id": "CS-2505",
+            "title": "Intro Computer Organization",
+            "CRN": 13225,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "LITRV 1670",
+            "instructor": "WD McQuain"
+        },
+        {
+            "id": "CS-2505",
+            "title": "Intro Computer Organization",
+            "CRN": 20301,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "TORG 2150",
+            "instructor": "DP McPherson"
+        }
+    ],
+    "CS-2506": [
         {
             "id": "CS-2506",
             "title": "Intro to Computer Organization",
@@ -117,26 +3345,666 @@
             "instructor": "DS Nikolopoulos"
         }
     ],
-    "CS3304": [
+    "CS-1014": [
         {
-            "id": "CS-3304",
-            "title": "Comparative Languages",
-            "CRN": 13279,
+            "id": "CS-1014",
+            "title": "Intro Computational Thinking",
+            "CRN": 13169,
             "days": "TR",
-            "start": "8:00AM",
-            "end": "9:15AM",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "NCB 230",
+            "instructor": "DG Kafura"
+        }
+    ],
+    "CS-1044": [
+        {
+            "id": "CS-1044",
+            "title": "Intro Prog in C",
+            "CRN": 13171,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
             "location": "NCB 160",
-            "instructor": "MA Gulzar"
+            "instructor": "KT Stevens"
+        }
+    ],
+    "CS-1054": [
+        {
+            "id": "CS-1054",
+            "title": "Intro to Programming in Java",
+            "CRN": 13172,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "TORG 1020",
+            "instructor": "LS Gusukuma"
+        }
+    ],
+    "CS-1064": [
+        {
+            "id": "CS-1064",
+            "title": "Intro to Programming in Python",
+            "CRN": 13178,
+            "days": "MWF",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "TORG 1060",
+            "instructor": "JA Lewis"
         },
         {
-            "id": "CS-3304",
-            "title": "Comparative Languages",
-            "CRN": 13280,
+            "id": "CS-1064",
+            "title": "Intro to Programming in Python",
+            "CRN": 13179,
+            "days": "MWF",
+            "start": "12:20PM",
+            "end": "1:10PM",
+            "location": "SQUIR COLNL",
+            "instructor": "JA Lewis"
+        }
+    ],
+    "CS-1114": [
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13180,
+            "days": "M",
+            "start": "6:00PM",
+            "end": "8:30PM",
+            "location": "TORG 1040",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13181,
+            "days": "M",
+            "start": "6:00PM",
+            "end": "8:30PM",
+            "location": "NCB 360",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13182,
+            "days": "MW",
+            "start": "9:05AM",
+            "end": "9:55AM",
+            "location": "TORG 2150",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13183,
+            "days": "R",
+            "start": "5:00PM",
+            "end": "7:30PM",
+            "location": "TORG 1020",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13184,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "7:30PM",
+            "location": "TORG 1040",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13186,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "TORG 3100",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13187,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "7:30PM",
+            "location": "TORG 1020",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13189,
+            "days": "F",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "NCB 110A",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13190,
+            "days": "F",
+            "start": "1:25PM",
+            "end": "3:55PM",
+            "location": "RAND 320",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13191,
+            "days": "W",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "MCB 126",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13192,
+            "days": "R",
+            "start": "5:00PM",
+            "end": "7:30PM",
+            "location": "TORG 1040",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13193,
+            "days": "W",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "MCB 209",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13194,
+            "days": "F",
+            "start": "4:00PM",
+            "end": "6:30PM",
+            "location": "NCB 110B",
+            "instructor": "ND Barnette"
+        },
+        {
+            "id": "CS-1114",
+            "title": "Intro to Software Design",
+            "CRN": 13195,
+            "days": "F",
+            "start": "1:25PM",
+            "end": "3:55PM",
+            "location": "WMS 134",
+            "instructor": "ND Barnette"
+        }
+    ],
+    "CS-1944": [
+        {
+            "id": "CS-1944",
+            "title": "Computer Science 1st Yr Sem",
+            "CRN": 13196,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "5:50PM",
+            "location": "TORG 2150",
+            "instructor": "ND Barnette"
+        }
+    ],
+    "CS-5014": [
+        {
+            "id": "CS-5014",
+            "title": "Research Meth in CS",
+            "CRN": 13405,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "MCB 318",
+            "instructor": "CA Shaffer"
+        }
+    ],
+    "CS-5024": [
+        {
+            "id": "CS-5024",
+            "title": "Ethics &amp; Professionalism in CS",
+            "CRN": 13406,
+            "days": "MWF",
+            "start": "1:25PM",
+            "end": "2:15PM",
+            "location": "NCB 250",
+            "instructor": "MF Farghally"
+        },
+        {
+            "id": "CS-5024",
+            "title": "Ethics &amp; Professionalism in CS",
+            "CRN": 13407,
+            "days": "R",
+            "start": "6:30PM",
+            "end": "9:15PM",
+            "location": "ONLINE",
+            "instructor": "TE Greening"
+        },
+        {
+            "id": "CS-5024",
+            "title": "Ethics &amp; Professionalism in CS",
+            "CRN": 20324,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "ONLINE",
+            "instructor": "MF Farghally"
+        }
+    ],
+    "CS-5040": [
+        {
+            "id": "CS-5040",
+            "title": "Intermed Data Struct/Algorithm",
+            "CRN": 13408,
+            "days": "TR",
+            "start": "6:30PM",
+            "end": "7:45PM",
+            "location": "TBA",
+            "instructor": "KR Edmison"
+        }
+    ],
+    "CS-5046": [
+        {
+            "id": "CS-5046",
+            "title": "Computation for Data Sciences",
+            "CRN": 13411,
             "days": "TR",
             "start": "5:00PM",
             "end": "6:15PM",
-            "location": "NCB 320",
-            "instructor": "DP McPherson"
+            "location": "NCB 110B",
+            "instructor": "L Zhang"
+        }
+    ],
+    "CS-5114": [
+        {
+            "id": "CS-5114",
+            "title": "Theory of Algorithms",
+            "CRN": 21405,
+            "days": "T",
+            "start": "3:30PM",
+            "end": "6:15PM",
+            "location": "TBA",
+            "instructor": "J Cho"
+        }
+    ],
+    "CS-5234": [
+        {
+            "id": "CS-5234",
+            "title": "Advanced Parallel Computation",
+            "CRN": 13413,
+            "days": "TR",
+            "start": "11:00AM",
+            "end": "12:15PM",
+            "location": "LITRV 1770",
+            "instructor": "A Sandu"
+        }
+    ],
+    "CS-5424": [
+        {
+            "id": "CS-5424",
+            "title": "Computational Cell Biology",
+            "CRN": 20370,
+            "days": "MWF",
+            "start": "11:15AM",
+            "end": "12:05PM",
+            "location": "WAL 244",
+            "instructor": "S Cao"
+        }
+    ],
+    "CS-5484": [
+        {
+            "id": "CS-5484",
+            "title": "Finite Element Meth",
+            "CRN": 13415,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 210",
+            "instructor": "S Adjerid"
+        }
+    ],
+    "CS-5504": [
+        {
+            "id": "CS-5504",
+            "title": "Computer Architecture",
+            "CRN": 20371,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "RAND 331",
+            "instructor": "W Feng"
+        }
+    ],
+    "CS-5525": [
+        {
+            "id": "CS-5525",
+            "title": "Data Analytics",
+            "CRN": 13417,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "WLH 350",
+            "instructor": "A Karpatne"
+        }
+    ],
+    "CS-5526": [
+        {
+            "id": "CS-5526",
+            "title": "Data Analytics",
+            "CRN": 13419,
+            "days": "MW",
+            "start": "11:15AM",
+            "end": "12:30PM",
+            "location": "ONLINE",
+            "instructor": "Staff"
+        },
+        {
+            "id": "CS-5526",
+            "title": "Data Analytics",
+            "CRN": 21481,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "MCB 209",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-5544": [
+        {
+            "id": "CS-5544",
+            "title": "Compiler Optimizations",
+            "CRN": 20571,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "TBA",
+            "instructor": "B Ravindran"
+        },
+        {
+            "id": "CS-5544",
+            "title": "Compiler Optimizations",
+            "CRN": 20572,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "ONLINE",
+            "instructor": "B Ravindran"
+        }
+    ],
+    "CS-5560": [
+        {
+            "id": "CS-5560",
+            "title": "Fundamentals of Info Security",
+            "CRN": 13421,
+            "days": "R",
+            "start": "3:30PM",
+            "end": "6:15PM",
+            "location": "ONLINE",
+            "instructor": "W Lou"
+        }
+    ],
+    "CS-5566": [
+        {
+            "id": "CS-5566",
+            "title": "Network Arch and Protocols",
+            "CRN": 13423,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "7:45PM",
+            "location": "ONLINE",
+            "instructor": "Staff"
+        },
+        {
+            "id": "CS-5566",
+            "title": "Network Arch and Protocols",
+            "CRN": 20585,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "7:45PM",
+            "location": "TBA",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-5590": [
+        {
+            "id": "CS-5590",
+            "title": "System and Software Security",
+            "CRN": 13425,
+            "days": "W",
+            "start": "4:00PM",
+            "end": "6:45PM",
+            "location": "TBA",
+            "instructor": "D Yao"
+        }
+    ],
+    "CS-5594": [
+        {
+            "id": "CS-5594",
+            "title": "Blockchain Technologies",
+            "CRN": 13427,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "GOODW 155",
+            "instructor": "P Gao"
+        }
+    ],
+    "CS-5704": [
+        {
+            "id": "CS-5704",
+            "title": "Software Engineering",
+            "CRN": 13435,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "MCB 231",
+            "instructor": "Staff"
+        }
+    ],
+    "CS-5724": [
+        {
+            "id": "CS-5724",
+            "title": "Models of HCI",
+            "CRN": 20322,
+            "days": "TR",
+            "start": "12:30PM",
+            "end": "1:45PM",
+            "location": "TORG 1020",
+            "instructor": "D Gracanin"
+        }
+    ],
+    "CS-5754": [
+        {
+            "id": "CS-5754",
+            "title": "Virtual Environments",
+            "CRN": 13438,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "NCB 110B",
+            "instructor": "D Gracanin"
+        }
+    ],
+    "CS-5764": [
+        {
+            "id": "CS-5764",
+            "title": "Information Visualization",
+            "CRN": 20576,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "MCB 232",
+            "instructor": "Y Yang"
+        }
+    ],
+    "CS-5814": [
+        {
+            "id": "CS-5814",
+            "title": "Introduction to Deep Learning",
+            "CRN": 13440,
+            "days": "T",
+            "start": "5:00PM",
+            "end": "7:45PM",
+            "location": "TORG 1060",
+            "instructor": "CK Reddy"
+        }
+    ],
+    "CS-5824": [
+        {
+            "id": "CS-5824",
+            "title": "Advanced Machine Learning",
+            "CRN": 13441,
+            "days": "TR",
+            "start": "3:30PM",
+            "end": "4:45PM",
+            "location": "ONLINE",
+            "instructor": "Staff"
+        },
+        {
+            "id": "CS-5824",
+            "title": "Advanced Machine Learning",
+            "CRN": 20374,
+            "days": "TR",
+            "start": "2:00PM",
+            "end": "3:15PM",
+            "location": "SURGE 104A",
+            "instructor": "D Zhou"
+        }
+    ],
+    "CS-5934": [
+        {
+            "id": "CS-5934",
+            "title": "Capstone Project",
+            "CRN": 13443,
+            "days": "M",
+            "start": "4:00PM",
+            "end": "6:45PM",
+            "location": "TBA",
+            "instructor": "S Hooshangi"
+        }
+    ],
+    "CS-5944": [
+        {
+            "id": "CS-5944",
+            "title": "Graduate Seminar",
+            "CRN": 20293,
+            "days": "F",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "TORG 2150",
+            "instructor": "CJ Ribbens"
+        }
+    ],
+    "CS-6204": [
+        {
+            "id": "CS-6204",
+            "title": "TS: Computing and Social Good",
+            "CRN": 20449,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "MCB 307",
+            "instructor": "SH Hasan"
+        },
+        {
+            "id": "CS-6204",
+            "title": "TS: Systems Security Seminar",
+            "CRN": 20450,
+            "days": "TR",
+            "start": "5:00PM",
+            "end": "6:15PM",
+            "location": "NCB 110A",
+            "instructor": "M Hicks"
+        }
+    ],
+    "CS-6444": [
+        {
+            "id": "CS-6444",
+            "title": "Verificat Validat Sci Comput",
+            "CRN": 20899,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "DER 1084",
+            "instructor": "CJ Roy"
+        }
+    ],
+    "CS-6524": [
+        {
+            "id": "CS-6524",
+            "title": "Deep Learning",
+            "CRN": 13504,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "TBA",
+            "instructor": "J Xuan"
+        },
+        {
+            "id": "CS-6524",
+            "title": "Deep Learning",
+            "CRN": 13505,
+            "days": "MW",
+            "start": "4:00PM",
+            "end": "5:15PM",
+            "location": "ONLINE",
+            "instructor": "J Xuan"
+        }
+    ],
+    "CS-6604": [
+        {
+            "id": "CS-6604",
+            "title": "Adv Tops Data &amp; Info",
+            "CRN": 13507,
+            "days": "TR",
+            "start": "9:30AM",
+            "end": "10:45AM",
+            "location": "LITRV 1770",
+            "instructor": "B Viswanath"
+        },
+        {
+            "id": "CS-6604",
+            "title": "TS: Quantum Information Theory",
+            "CRN": 13508,
+            "days": "TR",
+            "start": "8:00AM",
+            "end": "9:15AM",
+            "location": "NCB 110B",
+            "instructor": "J Sikora"
+        }
+    ],
+    "CS-6704": [
+        {
+            "id": "CS-6704",
+            "title": "TS: Software Support Dist Syst",
+            "CRN": 13509,
+            "days": "MW",
+            "start": "5:30PM",
+            "end": "6:45PM",
+            "location": "GOODW 115",
+            "instructor": "E Tilevich"
+        }
+    ],
+    "CS-6824": [
+        {
+            "id": "CS-6824",
+            "title": "TS: AI-powered Molecular Mdlng",
+            "CRN": 20577,
+            "days": "MW",
+            "start": "2:30PM",
+            "end": "3:45PM",
+            "location": "GOODW 241",
+            "instructor": "D Bhattacharya"
         }
     ]
 }

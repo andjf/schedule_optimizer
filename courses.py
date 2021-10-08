@@ -13,7 +13,17 @@ def clear():
 with open('course_data.json') as f:
     data = json.load(f)
 
-courses = [[Course(info) for info in sections] for sections in data.values()]
+desired_courses = [
+    "CS-3604",
+    "CS-3114",
+    "CS-3214",
+    "CS-2506",
+    "CS-3304",
+]
+
+
+courses = [[Course(info) for info in sections]
+           for sections in data.values() if sections[0]["id"] in desired_courses]
 
 
 course_loads = []
