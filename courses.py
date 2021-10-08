@@ -4,10 +4,12 @@ from Course import Course
 from CourseLoad import CourseLoad
 import os
 
+
 def clear():
     os.system("cls")
 
-CS3604 = [
+
+CS3604 = ("CS3604", "Professionalism in Computing", [
     {
         "CRN": 13282,
         "days": "TR",
@@ -32,9 +34,9 @@ CS3604 = [
         "location": "ONLINE",
         "instructor": "DR Dunlap"
     }
-]
+])
 
-CS3114 = [
+CS3114 = ("CS3114", "Data Structures and Algorithms", [
     {
         "CRN": 13274,
         "days": "TR",
@@ -59,9 +61,9 @@ CS3114 = [
         "location": "TORG 1060",
         "instructor": "PR Sullivan"
     }
-]
+])
 
-CS3214 = [
+CS3214 = ("CS3214", "Computer Systems", [
     {
         "CRN": 13276,
         "days": "TR",
@@ -86,9 +88,9 @@ CS3214 = [
         "location": "NCB 250",
         "instructor": "L Hu"
     }
-]
+])
 
-CS2506 = [
+CS2506 = ("CS2506", "Intro to Computer Organization", [
     {
         "CRN": 13226,
         "days": "MW",
@@ -105,9 +107,9 @@ CS2506 = [
         "location": "MCB 100",
         "instructor": "DS Nikolopoulos"
     }
-]
+])
 
-CS3304 = [
+CS3304 = ("CS3304", "Comparative Languages", [
     {
         "CRN": 13279,
         "days": "TR",
@@ -124,16 +126,19 @@ CS3304 = [
         "location": "NCB 320",
         "instructor": "DP McPherson"
     }
-]
+])
 
 classes = [CS3604, CS3114, CS3214, CS2506, CS3304]
-courses = [[Course(info) for info in sections] for sections in classes]
+courses = [[Course(info, name, id) for info in sections]
+           for id, name, sections in classes]
+
 
 def print_course_load(courses: List[Course]):
     print("-"*40)
     for course in courses:
         print(course)
     print("-"*40)
+
 
 course_loads = []
 for selected_courses in get_all_possibilities_iter(courses):
@@ -143,8 +148,9 @@ for selected_courses in get_all_possibilities_iter(courses):
 
 course_loads.sort(key=lambda cl: cl.get_minutes_between_classes())
 
-clear()
-
-curr = course_loads[-1]
-print(curr)
-curr.print_courses()
+for i, cl in enumerate(course_loads):
+    clear()
+    print(cl)
+    cl.print_courses()
+    if input(f"next {i + 1}/{len(course_loads)}? ").lower() == "no":
+        break

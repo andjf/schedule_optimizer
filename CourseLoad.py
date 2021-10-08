@@ -27,14 +27,15 @@ class CourseLoad(object):
         total = 0
         for todays_courses in courses_on_days:
             for i in range(0, len(todays_courses) - 1):
-                total += todays_courses[i + 1].start_time - todays_courses[i].end_time
+                total += todays_courses[i + 1].start_time - \
+                    todays_courses[i].end_time
 
         return total
 
-    def print_courses(self):
+    def print_courses(self, verbose=False):
         print("-"*40)
         for course in self.courses:
-            print(course)
+            print(str(course) if verbose else course.short_out())
             print("-"*40)
 
     def __str__(self):
@@ -51,7 +52,8 @@ class CourseLoad(object):
 
         minute_increments = 30
 
-        out = [[" " for x in range(5 * day_size)] for y in range(total_minutes_shown // minute_increments)]
+        out = [[" " for x in range(5 * day_size)]
+               for y in range(total_minutes_shown // minute_increments)]
 
         days_order = "MTWRF"
         for course in self.courses:
@@ -71,29 +73,22 @@ class CourseLoad(object):
                 for dy in range(1, length):
                     out[offset + dy][index * day_size] = "║"
                     out[offset + dy][(index + 1) * day_size - 1] = "║"
-        
+
         hour_space_padding = 8
 
-        spaced_days = [" "*((day_size-1)//2) + day + " "*((day_size-1)//2) for day in days_order]
+        spaced_days = [" "*((day_size-1)//2) + day + " " *
+                       ((day_size-1)//2) for day in days_order]
         to_return = "\n\n"
         to_return += (" " * hour_space_padding)
         to_return += "".join(spaced_days)
         to_return += "\n"
 
         for i, row in enumerate(out):
-            hour = (((i * minute_increments // 60) + (start_time // 60) - 1) % 12) + 1
+            hour = (((i * minute_increments // 60) +
+                    (start_time // 60) - 1) % 12) + 1
             hour_str = "{0:4}".format(hour) + "  "
-            pre = (hour_str if (i % (60 // minute_increments) == 0) else " " * 6) + "│  "
+            pre = (hour_str if (i % (60 // minute_increments) == 0)
+                   else " " * 6) + "│  "
             to_return += pre + "".join(row) + "\n"
 
         return to_return
-
-
-
-
-
-
-        
-
-
-

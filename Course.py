@@ -1,8 +1,10 @@
-from typing import Dict, TextIO
+from typing import Dict
 
 
 class Course(object):
-    def __init__(self, course_info: Dict) -> None:
+    def __init__(self, course_info: Dict, name: str, id: str) -> None:
+        self.name = name
+        self.id = id
         self.crn = course_info["CRN"]
         self.days = course_info["days"]
         self.meeting_time = f"{course_info['start']}-{course_info['end']}"
@@ -30,15 +32,21 @@ class Course(object):
             `True` if the courses overlap, `False` otherwise
         """
         days_overlap = self.shares_day(other)
-        times_overlap = any(self.start_time <= t <= self.end_time for t in [other.start_time, other.end_time])
+        times_overlap = any(self.start_time <= t <= self.end_time for t in [
+                            other.start_time, other.end_time])
         return days_overlap and times_overlap
 
     def __str__(self):
-        to_return = ""
+        to_return = "\n" + " " * 15 + self.id + "\n\n"
+        to_return += f"Class: {self.name}\n"
         to_return += f"Meeting Time: {self.days} {self.meeting_time}\n"
         to_return += f"Location: {self.location}\n"
-        to_return += f"Instructor: {self.instructor}\n"
-        to_return += f"CRN: {self.crn}"
+        to_return += f"Instructor: {self.instructor} (CRN: {self.crn})"
+        return to_return
+
+    def short_out(self):
+        to_return = self.id
+        to_return += f"\t{self.days} {self.meeting_time}\t({self.crn})"
         return to_return
 
     @staticmethod
@@ -62,10 +70,10 @@ class Course(object):
 
         # Gathers the hour
         hour = int(t[0:t.index(":")])
-        
+
         # Gathers the minute
         minute = int(t[-4:-2])
-        
+
         # Checks if the time is given in PM or AM
         pm = (t[-2:].upper() == "PM")
 
