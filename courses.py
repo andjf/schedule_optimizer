@@ -135,22 +135,15 @@ def print_course_load(courses: List[Course]):
         print(course)
     print("-"*40)
 
-def has_overlaps(courses: List[Dict]) -> bool:
-    for i in range(0, len(courses) - 1):
-        for j in range(i + 1, len(courses)):
-            if courses[i].overlaps(courses[j]):
-                return True
-    return False
-
 course_loads = []
 for selected_courses in get_all_possibilities_iter(courses):
-    if not has_overlaps(selected_courses):
-        course_loads.append(CourseLoad(selected_courses))
+    curr = CourseLoad(selected_courses)
+    if not curr.has_overlaps():
+        course_loads.append(curr)
 
 course_loads.sort(key=lambda cl: cl.get_minutes_between_classes())
 
-print(len(course_loads))
-
+clear()
 
 curr = course_loads[-1]
 print(curr)

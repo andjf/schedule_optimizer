@@ -6,10 +6,29 @@ class CourseLoad(object):
     def __init__(self, courses: List[Course]) -> None:
         self.courses = sorted(courses, key=lambda course: course.start_time)
 
-    def get_minutes_between_classes(self):
-        total = 0
+    def has_overlaps(self):
         for i in range(0, len(self.courses) - 1):
-            total += self.courses[i + 1].start_time - self.courses[i].end_time
+            for j in range(i + 1, len(self.courses)):
+                if self.courses[i].overlaps(self.courses[j]):
+                    return True
+        return False
+
+    def get_minutes_between_classes(self):
+        days = "MTWRF"
+
+        courses_on_days = []
+        for day in days:
+            current_days_courses = []
+            for course in self.courses:
+                if day in course.days:
+                    current_days_courses.append(course)
+            courses_on_days.append(current_days_courses)
+
+        total = 0
+        for todays_courses in courses_on_days:
+            for i in range(0, len(todays_courses) - 1):
+                total += todays_courses[i + 1].start_time - todays_courses[i].end_time
+
         return total
 
     def print_courses(self):
