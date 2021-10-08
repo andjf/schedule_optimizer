@@ -38,5 +38,5 @@ for i, cl in enumerate(course_loads):
     clear()
     print(cl)
     cl.print_courses()
-    if input(f"next {i + 1}/{len(course_loads)}? ").lower() == "no":
+    if input(f"next {i + 1}/{len(course_loads)}? ").lower() in ["no", "n", "q", "quit", "exit"]:
         break
