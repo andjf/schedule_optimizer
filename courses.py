@@ -1,4 +1,3 @@
-from typing import List
 from iter import get_all_possibilities_iter
 from Course import Course
 from CourseLoad import CourseLoad
@@ -6,37 +5,62 @@ import os
 import json
 
 
+# Define how to clear the screen (Windows)
 def clear():
     os.system("cls")
 
 
+# Open and store course info
 with open('course_data.json') as f:
     data = json.load(f)
 
+# The courses that the user would like to take
 desired_courses = [
-    "CS-3604",
-    "CS-3114",
-    "CS-3214",
+    "MATH-3134",
     "CS-2506",
-    "CS-3304",
+    "CS-3114",
+    "ENGL-3764",
+    "STAT-4705",
+    "HIST-1115"
 ]
 
 
+# Get collection of courses for each desired course
 courses = [[Course(info) for info in sections]
            for sections in data.values() if sections[0]["id"] in desired_courses]
 
-
+# Transform courses in to non-overlapping course loads
 course_loads = []
 for selected_courses in get_all_possibilities_iter(courses):
     curr = CourseLoad(selected_courses)
     if not curr.has_overlaps():
         course_loads.append(curr)
 
+# Sort courses based on the gaps between classes
 course_loads.sort(key=lambda cl: cl.get_minutes_between_classes())
 
-for i, cl in enumerate(course_loads):
+# Words that would trigger exiting viewing
+exit_words = ["no", "n", "q", "quit", "exit"]
+
+# Loop through all possible course loads
+i = 0
+while i < len(course_loads):
+    # Get current course load
+    cl = course_loads[i]
+    # Clearing screen for next display
     clear()
+    # Printing next possibility
     print(cl)
+    # Print basic course info
     cl.print_courses()
-    if input(f"next {i + 1}/{len(course_loads)}? ").lower() in ["no", "n", "q", "quit", "exit"]:
+    # Check if the user wants to see the next element
+    response = input(f"next {i + 1}/{len(course_loads)}? ").lower()
+    if response in exit_words:
+        # Exit the viewing
         break
+    elif "prev" in response:
+        # User wants to see the previous course load
+        i -= 1
+    else:
+        # Go to the next course load
+        i += 1
